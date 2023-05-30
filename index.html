@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cloudbudget</title>
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
@@ -19,11 +19,11 @@
 
           <div class="navigation__menu">
             <ul class="navigation__list">
-              <li class="navigation__item">overwiew</li>
-              <li class="navigation__item">features</li>
-              <li class="navigation__item">technology</li>
-              <li class="navigation__item">contact</li>
-              <li class="navigation__item">sign up</li>
+              <li class="navigation__item"><a href="#overwiew">overwiew</a></li>
+              <li class="navigation__item"><a href="#features">features</a></li></li>
+              <li class="navigation__item"><a href="#technology">technology</a></li></li>
+              <li class="navigation__item"><a href="#contact">contact</a></li></li>
+              <li class="navigation__item"><a href="#sign up">sign up</a></li></li>
             </ul>
           </div>
           <div class="navigation__info">
@@ -49,7 +49,8 @@
 
     <main class="main">
       <div class="main__container">
-        <section class="possibilities">
+        <!-- Block possibilities -->
+        <section class="possibilities" id="overwiew">
           <section class="possibilities__left">
             <h2 class="possibilities__header">
               Easy to Use Cloud Budget Management Software
@@ -70,7 +71,236 @@
               class="possibilities__image"
             />
           </section>
+          <!-- Block features -->
         </section>
+        <section class="features">
+          <div class="features__container" id="features">
+            <h2 class="features__header">Features</h2>
+            <div class="features__content">
+              <div class="features__content-left">
+                <img class="features__image" src="./images/card1.svg" alt="" />
+                <div class="features__info">
+                  <h3 class="features__info-header">
+                    Supports All Currencies and Cards
+                  </h3>
+                  <p class="features__info-text">
+                    We support all popular currencies and is fully customizable
+                    to add
+                  </p>
+                  <a class="features__link" href="#">Read More</a>
+                </div>
+              </div>
+              <div class="features__content-center">
+                <img class="features__image" src="./images/card2.svg" alt="" />
+                <div class="features__info">
+                  <h3 class="features__info-header">
+                    Manage your expenses on the go
+                  </h3>
+                  <p class="features__info-text">
+                    You can access your account from anywhere in the world on
+                    any device
+                  </p>
+                  <a class="features__link" href="#">Read More</a>
+                </div>
+              </div>
+              <div class="features__content-right">
+                <img class="features__image" src="./images/card3.svg" alt="" />
+                <div class="features__info">
+                  <h3 class="features__info-header">
+                    Cloud Budget Management Software
+                  </h3>
+                  <p class="features__info-text">
+                    Our software is made so you can access and manage your
+                    budget
+                  </p>
+                  <a class="features__link" href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Block technology -->
+        <section class="technology">
+          <div class="technology__container" id="technology">
+            <h3 class="technology__header">Technology</h3>
+            <section class="technology__content">
+              <div class="technology__storage">
+                <img
+                  class="technology__image"
+                  src="./images/cloud.svg"
+                  alt=""
+                />
+                <h3 class="technology__storage-head">Cloud Storage</h3>
+                <p class="technology__storage-text">
+                  Access your account from anywhere in the world on any device
+                </p>
+              </div>
+
+              <div class="technology__secure">
+                <img
+                  class="technology__image"
+                  src="./images/secure.svg"
+                  alt=""
+                />
+                <h3 class="technology__secure-head">Secure</h3>
+                <p class="technology__secure-text">
+                  All your information is stored on secure cloud servers
+                </p>
+              </div>
+
+              <div class="technology__pdf">
+                <img class="technology__image" src="./images/pdf.svg" alt="" />
+                <h3 class="technology__pdf-head">PDF Download</h3>
+                <p class="technology__pdf-text">
+                  Download any of your reports in PDF format
+                </p>
+              </div>
+
+              <div class="technology__csv">
+                <img class="technology__image" src="./images/csv.svg" alt="" />
+                <h3 class="technology__csv-head">CSV Download</h3>
+                <p class="technology__csv-text">
+                  All your information is stored on secure cloud servers
+                </p>
+              </div>
+            </section>
+            <!--AppDownload-->
+            <section class="appdownload">
+              <div class="appdownload__container">
+                <section class="appdownload__info">
+                  <h2 class="appdownload__header">
+                    Stay focused on saving money
+                  </h2>
+                  <p class="appdownload__text">
+                    It is important to stay focused on saving money in any way
+                    you can. We help you monitor your spending habits so you can
+                    easily spot and cut any unnecessary expenses. Simply join
+                    today to get started!
+                  </p>
+                  <div class="appdownload__icons">
+                    <img
+                      class="appdownload__icons-store"
+                      src="./images/playstore.svg"
+                      alt="playstoreIcon"
+                    />
+                    <img
+                      class="appdownload__icons-store"
+                      src="./images/appstore.svg"
+                      alt="appstoreIcon"
+                    />
+                    <img
+                      class="appdownload__icons-store"
+                      src="./images/windows.svg"
+                      alt="windowsIcon"
+                    />
+                  </div>
+                </section>
+                <section class="appdownload__video">
+                  <img
+                    class="appdownload__video-man"
+                    src="./images/video1.svg"
+                    alt="video"
+                  />
+                  <img
+                    class="appdownload__video-people"
+                    src="./images/video2.svg"
+                    alt="video"
+                  />
+                  <img
+                    class="appdownload__video-work"
+                    src="./images/video3.svg"
+                    alt="video"
+                  />
+                </section>
+              </div>
+            </section>
+          </div>
+        </section>
+        <!--Section contact-->
+        <section class="contact">
+          <div class="contact__container" id="contact">
+            <div class="contact__info">
+              <h3 class="contact__info-header">Contact</h3>
+              <p class="contact__info-text">
+                Questions or concerns? Just fill out the form below and our
+                support team will get back to you within 24 hours
+              </p>
+            </div>
+            <div class="contact__validation">
+              <form class="validation__form" id="sign up">
+                <div class="validation__form-position">
+                  <input
+                    type="text"
+                    class="validation__form-firstname"
+                    placeholder="Firts Name"
+                  />
+                  <input
+                    type="text"
+                    class="validation__form-input-lastname"
+                    placeholder="Last Name"
+                  />
+                  <input
+                    type="tel"
+                    class="validation__form-input-phone"
+                    placeholder="Phone Number"
+                    pattern="[0-9]{10}"
+                    required
+                  />
+                  <select class="validation__form-input-select">
+                    <option value="selected">Select Service</option>
+                  </select>
+                  <button class="validation__form-button">Submit now</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer">
+          <div class="footer__container">
+            <div class="footer__info">
+              <div class="footer__info-address">
+                <h3 class="footer__info-header">Address</h3>
+                <p class="footer__info-text">
+                  Pipang Ltd, Griva Digeni, 81-83 Jacovides Tower, 1st Floor
+                  1090 Picosia USA
+                </p>
+                <div class="footer__info-copyright">
+                  Copyright 2018 CloudBudget
+                </div>
+              </div>
+              <div class="footer__info-services">
+                <h3 class="footer__info-header">Services</h3>
+                <p class="footer__services-text">
+                  overview features technology Terms & Conditions Privecy
+                </p>
+              </div>
+              <div class="footer__info-getintouch">
+                <h3 class="footer__info-header">Get in Touch</h3>
+                <span class="footer__info-mail"> info@cloudbudget.com </span>
+                <div class="footer__info-phone">+1 844-721-7120</div>
+                <div class="footer__info-network">
+                  <a href="#"
+                    ><img src="./images/facebook.svg" alt="facebook"
+                  /></a>
+                  <a href="#"
+                    ><img
+                      class="footer__info-icon"
+                      src="./images/in.svg"
+                      alt="in"
+                  /></a>
+                  <a href="#"
+                    ><img src="./images/twitter.svg" alt="twitter"
+                  /></a>
+                </div>
+              </div>
+              <div class="footer__info-cards">
+                <h3 class="footer__info-header">We Support</h3>
+                <a href="#"><img src="./images/cards.svg" alt="bank" /></a>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
     </main>
     <script src="/script.js"></script>

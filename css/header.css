@@ -7,7 +7,7 @@
 
 .header__container {
     max-width: 1100px;
-    padding: 0 10px;
+    padding: 0 10px 187px 0;
     margin: 0 auto;
     color: #FFFFFF;
 }
@@ -16,9 +16,7 @@
     justify-content: space-between;
     align-items: center;
     text-transform: uppercase;
-    font-family: 'Lato';
     font-weight: 700;
-    font-size: 14px;
     line-height: 17px;
     padding-top: 55px;
     margin-bottom: 140px;
@@ -40,12 +38,18 @@
 .navigation__item {
     padding: 5px;
     margin-right: 10px;
- 
+    color: #FFFFFF;
 }
 
 .navigation__item:last-child {
     margin-right: 0;
 }
+
+.navigation__item > a{
+   color: #FFFFFF;
+ 
+}
+
 
 .navigation__info {
     display: flex;
@@ -53,9 +57,6 @@
     justify-content: space-between;
 }
 
-.navigation__login {
-    text-transform: uppercase;
-}
 
 .navigation__flag {
     margin-right: 11px;
@@ -74,6 +75,12 @@
     margin-left: 20px;
 }
 
+.navigation__login:hover {
+    background-color: #ffffff;;
+    color:#ED4C5C;
+    transition: 1s;
+}
+
 .text__info {
     display: flex;
     flex-direction: column;
@@ -84,15 +91,11 @@
 .text__title {
     font-weight: 700;
     font-size: 72px;
-    line-height: 86px;
     margin-bottom: 39px;
     text-transform: uppercase;
 }
 .text__info-cena {
-    font-family: 'Lato';
-    font-style: normal;
-    width: 540px;
-    height: 124px;
+    width: 55%;
     padding: 0 28px;
     font-weight: 600;
     font-size: 24px;
@@ -110,5 +113,234 @@
     line-height: 17px;
     text-transform: uppercase;
     color: #ED4C5C;
-    margin-bottom: 187px;
+}
+
+.text__signup:hover {
+    background-color: transparent;
+    color:#ffffff;
+    transition: 1s;
+    outline:1px solid #ffffff;
+}
+
+
+@media(min-width: 1024px) and (max-width:1440px) {
+    .header__container {
+        max-width: 800px;
+        padding: 0 10px 100px 0;
+        margin: 0 auto;
+        color: #FFFFFF;
+    }
+ 
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 15px;
+        padding-top: 50px;
+        margin-bottom: 120px;
+    }
+    
+    
+    .navigation__logo {
+       
+    }
+    
+    .navigation__menu {
+       
+    }
+    .navigation__list {
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+    }
+    .navigation__item {
+        padding: 5px;
+        margin-right: 10px;
+        color: #FFFFFF;
+    }
+    
+    .navigation__item:last-child {
+        margin-right: 0;
+    }
+    
+    .navigation__item > a{
+       color: #FFFFFF;
+     
+    }
+    
+    
+    .navigation__info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .navigation__login {
+        text-transform: uppercase;
+    }
+    
+    .navigation__flag {
+        margin-right: 11px;
+    }
+    .navigation__arrow {
+        margin-left: 5px;
+    }
+    
+    .navigation__login {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 11px 29px;
+        border: 1px solid #ffffff;
+        border-radius: 6px;
+        margin-left: 20px;
+    }
+
+    .text__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .text__title {
+        font-weight: 700;
+        font-size: 72px;
+        margin-bottom: 39px;
+        text-transform: uppercase;
+    }
+    .text__info-cena {
+        width: 55%;
+        padding: 0 28px;
+        font-weight: 600;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 39px;
+        line-height: 150%;
+       
+    }
+    .text__signup {
+        padding: 17px 52px;
+        background: #FFFFFF;
+        border-radius: 6px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: #ED4C5C;
+    }
+}
+
+
+
+@media(min-width: 769px) and (max-width: 1024px){
+    .header__container {
+        max-width: 600px;
+        padding: 0 10px 100px 0;
+        margin: 0 auto;
+        color: #FFFFFF;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 14px;
+        padding-top: 45px;
+        margin-bottom: 100px;
+    }
+    
+    
+    .navigation__logo {
+      
+    }
+    
+    .navigation__menu {
+       
+    }
+    .navigation__list {
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+    }
+    .navigation__item {
+        padding: 5px;
+        margin-right: 10px;
+        color: #FFFFFF;
+    }
+    
+    .navigation__item:last-child {
+        margin-right: 0;
+    }
+    
+    .navigation__item > a{
+       color: #FFFFFF;
+     
+    }
+    
+    
+    .navigation__info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .navigation__login {
+        text-transform: uppercase;
+    }
+    
+    .navigation__flag {
+        margin-right: 11px;
+    }
+    .navigation__arrow {
+        margin-left: 5px;
+    }
+    
+    .navigation__login {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 11px 29px;
+        border: 1px solid #ffffff;
+        border-radius: 6px;
+        margin-left: 20px;
+    }
+    
+    .text__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .text__title {
+        font-weight: 700;
+        font-size: 72px;
+        margin-bottom: 39px;
+        text-transform: uppercase;
+    }
+    .text__info-cena {
+        width: 55%;
+        padding: 0 28px;
+        font-weight: 600;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 39px;
+        line-height: 150%;
+       
+    }
+    .text__signup {
+        padding: 17px 52px;
+        background: #FFFFFF;
+        border-radius: 6px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: #ED4C5C;
+    }
 }

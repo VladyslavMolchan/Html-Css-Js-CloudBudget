@@ -1,0 +1,93 @@
+.appdownload {
+    
+}
+
+.appdownload__container {
+    background-color: #ED4C5C;
+    display: flex;
+    height: 500px;
+}
+
+.appdownload__info {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+.appdownload__header {
+    width: 40%;
+    height: 107px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    margin: 122px 81px 24px 165px;
+}
+
+.appdownload__text {
+    width: 40%;
+    height: 64px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    margin: 0 81px 40px 165px;
+}
+
+.appdownload__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 134px;
+    height: 32px;
+    margin: 40px 0 11px 163px;
+}
+
+
+.appdownload__icons-store {
+    margin-right: 25px;
+    width: 24px;
+    height: 24px;
+    
+}
+
+.appdownload__icons-store:last-child {
+    margin-right: 0;
+}
+
+.appdownload__video {
+    position: relative;
+    width: 533px;
+    height: 311px;
+}
+
+.appdownload__video-man {
+    width: 445px;
+    height: 311px;
+    z-index: 3;
+    position: absolute;
+    top:100px;
+    right: 300px;
+    border-radius: 15px;
+    
+}
+
+.appdownload__video-work {
+    width: 383px;
+    height: 267px;
+    z-index: 2;
+    position: absolute;
+    top:120px;
+    right: 400px;
+    border-radius: 15px;
+}
+
+
+.appdownload__video-people {
+    width: 383px;
+    height: 267px;
+    z-index: 1;
+    position: absolute;
+    top:120px;
+    right: 250px;
+    border-radius: 15px;
+}

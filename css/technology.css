@@ -1,0 +1,130 @@
+.technology {
+
+}
+.technology__container {
+
+}
+
+.technology__header {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    margin-bottom: 52px;
+}
+
+.technology__content {
+    display: flex;
+    justify-content: center;
+}
+
+.technology__storage {
+    width: 255px;
+    height: 226px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 30px 104px 30px;
+}
+
+.technology__image {
+   margin-bottom: 12px;
+   width: 66px;
+   height: 66px;
+}
+
+.technology__storage-head {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    margin-bottom: 10px;
+}
+.technology__storage-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0 30px;
+}
+
+.technology__secure {
+    width: 255px;
+    height: 226px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 30px 104px 0;
+}
+
+.technology__secure-head {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    margin-bottom: 10px;
+}
+
+.technology__secure-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0 34px;
+}
+
+.technology__pdf {
+    width: 255px;
+    height: 226px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 30px 104px 0;
+}
+
+.technology__pdf-head {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    margin-bottom: 10px;
+}
+
+.technology__pdf-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    margin: 0 34px;
+}
+
+.technology__csv {
+    width: 255px;
+    height: 226px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 30px 104px 0;
+}
+
+.technology__csv-head {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    margin-bottom: 10px;
+}
+
+.technology__csv-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    margin: 0 34px;
+}

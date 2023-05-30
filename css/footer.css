@@ -1,0 +1,63 @@
+.footer {
+}
+.footer__container {
+    padding: 85px 196px 86px 166px;
+    
+}
+.footer__info {
+    display: flex;
+    justify-content: space-around;
+    color: #101010;
+}
+.footer__info-address {
+   
+}
+.footer__info-header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    margin-bottom: 33px;
+}
+.footer__info-text {
+    width: 254px;
+    height: 54px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+}
+.footer__info-copyright {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 141px;
+}
+
+.footer__info-services {
+
+}
+
+.footer__services-text {
+    white-space: pre-line;
+}
+
+.footer__info-getintouch {
+}
+.footer__info-mail {
+}
+.footer__info-phone {
+    margin-top: 11px;
+}
+
+.footer__info-network {
+    margin-top: 20px;
+}
+
+.footer__info-icon {
+    margin: 0 13px 0 13px;
+}
+
+.footer__info-cards {
+}

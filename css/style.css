@@ -1,12 +1,12 @@
-@import 'normalize.css';
-@import 'default.css';
-@import 'header.css';
-@import 'possibilities.css'; // block under header
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
+@import './normalize.css';
 
-
-
-
-
+@import './default.css';
+@import './header.css';
+@import './possibilities.css';
+@import './features.css'; 
+@import './technology.css'; 
+@import './appDownload.css'; 
+@import './contact.css'; 
+@import './footer.css'; 
